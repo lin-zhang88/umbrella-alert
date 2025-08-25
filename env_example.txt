@@ -1,0 +1,17 @@
+# Weather API Configuration
+# Get your free API key from: https://openweathermap.org/api
+WEATHER_API_KEY=your_openweathermap_api_key_here
+
+# Location Configuration (change to your city and country)
+CITY=New York
+COUNTRY_CODE=US
+
+# Email Configuration (Gmail)
+# Use an App Password for Gmail: https://support.google.com/accounts/answer/185833
+EMAIL_ADDRESS=your_email@gmail.com
+EMAIL_PASSWORD=your_gmail_app_password_here
+RECIPIENT_EMAIL=your_email@gmail.com
+
+# Optional: Customize notification settings
+# TEMPERATURE_THRESHOLD=80
+# CHECK_INTERVAL_MINUTES=30 
