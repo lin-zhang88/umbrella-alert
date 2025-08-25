@@ -252,7 +252,7 @@ def send_welcome_email(email, city, country_code):
             'daily_high': 75.0,
             'description': 'welcome',
             'notifications': [
-                f'🎉 Welcome to Weather Notifications!',
+                f'🎉 Welcome to UmbrellaAlert!',
                 f'📍 You will receive daily weather alerts for {city}, {country_code}',
                 f'🌧️ Umbrella alerts when rain is expected',
                 f'☀️ Sunscreen alerts when temperature > 80°F',
@@ -421,7 +421,7 @@ if __name__ == '__main__':
     notification_thread = threading.Thread(target=background_notification_service, daemon=True)
     notification_thread.start()
     
-    print("🌤️ Weather Notification Web App Starting...")
+    print("☔ UmbrellaAlert Web App Starting...")
     print("📍 Web interface: http://localhost:5001")
     print("🔧 Admin panel: http://localhost:5001/admin")
     print("⏰ Background notifications: Daily at 8:00 AM")

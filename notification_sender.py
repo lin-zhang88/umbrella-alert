@@ -21,7 +21,7 @@ class NotificationSender:
             msg = MIMEMultipart()
             msg['From'] = self.email_address
             msg['To'] = self.recipient_email
-            msg['Subject'] = "🌤️ Weather Alert - Don't Forget Your Essentials!"
+            msg['Subject'] = f"☔ UmbrellaAlert - Weather Update for {weather_analysis['location']}"
             
             # Create email body
             body = self._create_email_body(weather_analysis)
@@ -64,7 +64,7 @@ class NotificationSender:
             </head>
             <body>
                 <div class="header">
-                    <h2>🎉 Welcome to Weather Notifications!</h2>
+                    <h2>🎉 Welcome to UmbrellaAlert!</h2>
                     <p><strong>Location:</strong> {weather_analysis['location']}</p>
                     <p><strong>Time:</strong> {current_time}</p>
                 </div>
