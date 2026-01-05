@@ -141,4 +141,4 @@ If you encounter any issues:
 
 ---
 
-**Happy weather monitoring! ☔☀️** 
+**Happy weather monitoring! ☔☀️**
